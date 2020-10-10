@@ -1,0 +1,12 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		int a,b;
+       float c;
+       Scanner var = new Scanner(System.in);
+       a = var.nextInt();
+       c = var.nextFloat();
+       b = var.nextInt();
+       System.out.print(a + "\n" + c + "\n" + b);
+	}
+}
