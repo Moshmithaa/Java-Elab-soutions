@@ -1,0 +1,11 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner Runway = new Scanner(System.in);
+       double speed,acceleration,length;
+       speed = Runway.nextFloat();
+       acceleration = Runway.nextFloat();
+       length = ((speed * speed)/(2 * acceleration));
+       System.out.println(length);
+	}
+}
