@@ -1,0 +1,16 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner points = new Scanner(System.in);
+       double x1,x2,y1,y2,d1,d2,add,sqr;
+       x1 = points.nextDouble();
+       y1 = points.nextDouble();
+       x2 = points.nextDouble();
+       y2 = points.nextDouble();
+       d1 = ((x1 - x2) * (x1 - x2));
+       d2 = ((y2 - y1) * (y2 - y1));
+       add = d1 + d2;
+       sqr = Math.sqrt(add);
+       System.out.println(String.format("%.2f",sqr));
+	}
+}
