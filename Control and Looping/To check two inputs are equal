@@ -1,0 +1,14 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner SON = new Scanner(System.in);
+       double a,b;
+       a = SON.nextDouble();
+       b = SON.nextDouble();
+       if(a == b){
+         System.out.println("They are the same");
+       }else {
+         System.out.println("They are different");
+       }
+	}
+}
