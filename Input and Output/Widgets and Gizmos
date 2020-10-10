@@ -1,0 +1,14 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner weight = new Scanner(System.in);
+       int widget_gram = 75,gizmo_gram = 112;
+       float a,b,c,d;
+       a = weight.nextInt();
+       b = weight.nextInt();
+       c = a * widget_gram + b * gizmo_gram;
+       d = c/1000;
+       System.out.println("The number of widgest is " + a + " and the number of gizmos is "
+                         + b  + " and the total weight is " + d + " Kilograms");
+	}
+}
