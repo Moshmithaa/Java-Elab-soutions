@@ -1,0 +1,15 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner triangle = new Scanner(System.in);
+       float a,b,c;
+       a = triangle.nextInt();
+       b = triangle.nextInt();
+       c = triangle.nextInt();
+       if(a + b <= c || a + c <= b || b + c <= a){
+         System.out.println("Input is Invalid");
+       }else {
+         System.out.println(a + b + c);
+       }
+	}
+}
