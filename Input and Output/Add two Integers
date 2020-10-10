@@ -1,0 +1,10 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner variable = new Scanner(System.in);
+       int a,b;
+       a = variable.nextInt();
+       b = variable.nextInt();
+       System.out.println(a + b);
+	}
+}
