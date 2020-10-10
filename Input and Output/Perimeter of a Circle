@@ -1,0 +1,9 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner perimeter = new Scanner(System.in);
+       int a;
+       a = perimeter.nextInt();
+       System.out.println(2 * 3.14 * a);
+	}
+}
