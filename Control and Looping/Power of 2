@@ -1,0 +1,11 @@
+import java.util.*;
+import java.lang.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner twoTable = new Scanner(System.in);
+       int n = twoTable.nextInt();
+       for(int i=0;i<=n;i++){
+         System.out.println(i + " " + (int)Math.pow(2,i));
+       }
+	}
+}
