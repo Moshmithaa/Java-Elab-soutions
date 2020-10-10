@@ -1,0 +1,11 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+       Scanner acres = new Scanner(System.in);
+       float a,b,c, acre = 43560;
+       a = acres.nextFloat();
+       b = acres.nextFloat();
+       c = a*b/acre;
+       System.out.println("The area of the field is "+ String.format("%.2f",c) + " acres");
+     }
+}
