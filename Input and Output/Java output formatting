@@ -1,0 +1,15 @@
+import java.util.*;
+class TestClass {
+	 public static void main(String[] args) { 
+		Scanner myObj = new Scanner(System.in);
+       String name = myObj.next();
+       int number = myObj.nextInt();
+       System.out.print(name + " "+'0'+number + '\n');
+       String name2 = myObj.next();
+       int number2 = myObj.nextInt();
+       System.out.print(name2 + " "+'0'+number2 + '\n');
+       String name3 = myObj.next();
+       int number3 = myObj.nextInt();
+       System.out.print(name3 + " "+'0'+number3);
+	}
+}
