@@ -1,0 +1,9 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		Scanner aap = new Scanner(System.in);
+       double a = aap.nextDouble();
+       System.out.println(String.format("%.02f",2 * 3.14 * a));
+       System.out.println(String.format("%.02f",3.14 * a * a));
+	}
+}
