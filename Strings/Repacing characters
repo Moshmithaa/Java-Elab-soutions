@@ -1,0 +1,10 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+       Scanner scan = new Scanner(System.in);
+		String s = scan.nextLine();
+       System.out.println(s.replace('s','o'));
+       System.out.println(s.replace("is","ui"));
+       System.out.println(s.replace("is","no"));
+	}
+}
