@@ -1,0 +1,73 @@
+import java.util.*;
+
+class Student {
+  int n;
+  int[] a = new int[10];
+  int[] b = new int[10];
+  int[] c = new int[10];
+  int[] d = new int[20];
+  int[] e = new int[20];
+  int[] f = new int[20];
+  int[] x = new int[30];
+  int[] y = new int[30];
+  int[] z = new int[30];
+  Scanner val =  new Scanner(System.in);
+  public void studentDetails() {
+    n = val.nextInt();
+    System.out.println("Student 1:");
+    System.out.println("Sem 1:");
+    for(int i=1;i<=3;i++){
+      a[i] = val.nextInt();
+      System.out.println(a[i]);
+    }
+    System.out.println("Sem 2:");
+    for(int i=4;i<=6;i++){
+      b[i] = val.nextInt();
+      System.out.println(b[i]);
+    }
+    System.out.println("Sem 3:");
+    for(int i=7;i<=9;i++){
+      c[i] = val.nextInt();
+      System.out.println(c[i]);
+    }
+    System.out.println("Student 2:");
+    System.out.println("Sem 1:");
+    for(int i=10;i<=12;i++){
+      d[i] = val.nextInt();
+      System.out.println(d[i]);
+    }
+    System.out.println("Sem 2:");
+    for(int i=13;i<=15;i++){
+      e[i] = val.nextInt();
+      System.out.println(e[i]);
+    }
+    System.out.println("Sem 3:");
+    for(int i=16;i<=18;i++){
+      f[i] = val.nextInt();
+      System.out.println(f[i]);
+    }
+    System.out.println("Student 3:");
+    System.out.println("Sem 1:");
+    for(int i=19;i<=21;i++){
+      x[i] = val.nextInt();
+      System.out.println(x[i]);
+    }
+    System.out.println("Sem 2:");
+    for(int i=22;i<=24;i++){
+      y[i] = val.nextInt();
+      System.out.println(y[i]);
+    }
+    System.out.println("Sem 3:");
+    for(int i=25;i<=27;i++){
+      z[i] = val.nextInt();
+      System.out.println(z[i]);
+    }
+  }
+}
+
+public class TestClass {
+  public static void main(String[] args) {
+    Student obj = new Student();
+    obj.studentDetails();
+  }
+}
