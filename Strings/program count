@@ -1,0 +1,15 @@
+import java.util.*;
+public class TestClass {
+	 public static void main(String[] args) { 
+		String str;
+        int countWords=0;
+        Scanner scan = new Scanner(System.in);
+        str = scan.nextLine();
+        for(int i=0; i<str.length()-1; i++)
+        {
+            if(str.charAt(i)==' ' && str.charAt(i+1)!=' ')
+                countWords++;
+        }
+        System.out.println(countWords + 1);
+	}
+}
