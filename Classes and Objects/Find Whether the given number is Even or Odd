@@ -1,0 +1,20 @@
+import java.util.*;
+public class TestClass {
+  int a;
+  public void read() {
+    Scanner OOE = new Scanner(System.in);
+    this.a = OOE.nextInt();
+  }
+  public void disp() {
+    if(this.a % 2 == 0){
+      System.out.println(this.a + " is Even");
+    }else {
+      System.out.println(this.a + " is Odd");
+    }
+  }
+	 public static void main(String[] args) { 
+       TestClass tc = new TestClass();
+       tc.read();
+       tc.disp();
+	}
+}
