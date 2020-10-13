@@ -1,0 +1,26 @@
+import java.util.*;
+class Fibonacci {
+  Scanner scan = new Scanner(System.in);
+  int a = 0,b = 1,c,n;
+  public void getInput(){
+    n = scan.nextInt();
+  }
+  public void displayFib(){
+    System.out.print(b + " ");
+    for(int i=1;i<n;i++){
+      if(n > 0) {
+    c = a + b;
+    System.out.print(c + " ");
+    a = b;
+    b = c;
+      }
+    }
+  }
+}
+public class TestClass {
+	 public static void main(String[] args) { 
+		Fibonacci obj = new Fibonacci();
+       obj.getInput();
+       obj.displayFib();
+	}
+}
