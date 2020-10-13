@@ -1,0 +1,23 @@
+import java.util.*;
+class Reminder {  
+  Scanner scan = new Scanner(System.in);
+  int T = scan.nextInt();
+  int[][] val = new int[T][2]; 
+  public void computeReminder(){
+    for(int i=0;i<T;i++){
+      for(int j=0;j<2;j++){
+        val[i][j] = scan.nextInt();
+         
+      }
+      System.out.println(val[i][0] % val[i][1]);
+    }  
+
+  }
+
+}
+public class TestClass {
+	 public static void main(String[] args) { 
+		Reminder f = new Reminder();
+       f.computeReminder();
+	}
+}
