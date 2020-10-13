@@ -1,0 +1,23 @@
+import java.util.*;
+class Average {
+  Scanner avg = new Scanner(System.in);
+  int sum = 0;
+  public void computeAvg() {
+    int n;
+    n = avg.nextInt();
+    int[] aver = new int[30];
+    for(int i=0;i<n;i++){
+      aver[i] = avg.nextInt();
+      sum += aver[i];
+    }
+    System.out.println(sum);
+    float val = sum;
+    System.out.println(String.format("%.2f",val/n));
+  }
+}
+public class TestClass {
+	 public static void main(String[] args) { 
+		Average obj = new Average();
+        obj.computeAvg();
+	}
+}
